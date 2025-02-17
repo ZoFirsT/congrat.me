@@ -12,6 +12,11 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        sukhumvit: ["var(--font-sukhumvit-regular)"],
+        sukhumvitSemiBold: ["var(--font-sukhumvit-semibold)"],
+        sukhumvitBold: ["var(--font-sukhumvit-bold)"],
+      },
     },
   },
   plugins: [],
